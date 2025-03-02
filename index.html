@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Semi-Circular Carousel</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- main content start -->
+  <main>
+
+    <!-- carousel section start -->
+    <section id="carousel-section" class="bg-section">
+
+      <div class="flex-center">
+        <div class="carousel-container">
+          <div class="carousel-border"></div>
+
+          <div class="carousel-content">
+
+            <div class="content-container">
+              <!-- Card 0 -->
+              <div id="card-0" class="card-content">
+                <div class="card-grid">
+                  <div class="card-item">
+                    <div class="card-product-grid">
+                      <img class="product-img" src="/assets/product1.png" alt="item" />
+                      <img class="product-img" src="/assets/product2.png" alt="item" />
+                      <img class="product-img" src="/assets/product3.png" alt="item" />
+                      <img class="product-img" src="/assets/product4.png" alt="item" />
+                    </div>
+                    <div class="card-details">
+                      <div>
+                        <div class="placeholder-bar"></div>
+                        <span class="item-count">9 items</span>
+                      </div>
+                      <span class="badge">1</span>
+                    </div>
+                  </div>
+
+                  <div class="card-item">
+                    <div class="card-product-grid">
+                      <div class="placeholder-box"></div>
+                      <div class="placeholder-box"></div>
+                      <div class="placeholder-box"></div>
+                      <div class="placeholder-box"></div>
+                    </div>
+                    <div class="card-details">
+                      <div>
+                        <div class="placeholder-bar"></div>
+                        <div class="placeholder-bar-small"></div>
+                      </div>
+                      <span class="badge">1</span>
+                    </div>
+                  </div>
+
+                  <div class="card-item">
+                    <div class="card-product-single">
+                      <div class="placeholder-box-large">
+                        <img class="plus-icon" src="/assets/plus.svg" alt="plus" />
+                      </div>
+                    </div>
+                    <div class="card-details">
+                      <div>
+                        <div class="placeholder-bar"></div>
+                        <div class="placeholder-bar-small"></div>
+                      </div>
+                      <span class="badge">1</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 1 -->
+              <div id="card-1" class="card-content hidden">
+                <div class="map-card">
+                  <div class="map">
+                    <div class="map-container">
+                      <iframe class="map-iframe"
+                        src="https://maps.google.com/maps?width=534&amp;height=646&amp;hl=en&amp;q=Man%20City,%20England,%20UK&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                        title="Google Map"></iframe>
+                    </div>
+                    <div class="map-overlay">
+                      <img class="map-image" src="/assets/arricesToday.png" alt="" />
+                      <span class="map-badge">Arrices today</span>
+                    </div>
+                  </div>
+
+                  <div class="map-details">
+                    <div>
+                      <div class="map-placeholder-bar"></div>
+                      <div class="location-container">
+                        <img class="location-icon" src="/assets/location.svg" alt="location" />
+                        <div>
+                          <div class="location-placeholder-bar"></div>
+                          <div class="location-placeholder-bar-small"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <img src="/assets/brand1.png" alt="" />
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 2 -->
+              <div id="card-3" class="card-content hidden">
+                <div class="chart-card">
+                  <img src="./public/assets/chart.png" alt="" />
+                </div>
+              </div>
+
+              <!-- Card 3 -->
+              <div id="card-2" class="card-content hidden">
+                <div class="co2-card">
+                  <div>
+                    <div class="co2-placeholder-bar"></div>
+                    <h2 class="co2-title">CO2e</h2>
+                    <div class="co2-placeholder-bar-small"></div>
+                  </div>
+
+                  <div class="co2-metrics">
+                    <div class="co2-metric">
+                      <div class="co2-metric-bar"></div>
+                      <div class="co2-metric-value"></div>
+                    </div>
+                    <div class="co2-metric">
+                      <div class="co2-metric-bar"></div>
+                      <div class="co2-metric-value"></div>
+                    </div>
+                    <div class="co2-metric">
+                      <div class="co2-metric-bar"></div>
+                      <div class="co2-metric-value"></div>
+                    </div>
+                    <div class="co2-metric">
+                      <div class="co2-metric-bar"></div>
+                      <div class="co2-metric-value"></div>
+                    </div>
+                    <div class="co2-metric">
+                      <div class="co2-metric-bar"></div>
+                      <div class="co2-metric-value"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 4 -->
+              <div id="card-4" class="card-content hidden">
+                <div class="card-grid">
+                  <div class="card-item">
+                    <div class="card-product-single">
+                      <div class="placeholder-box-large">
+                        <img class="plus-icon" src="/assets/plus.svg" alt="plus" />
+                      </div>
+                    </div>
+                    <div class="card-details">
+                      <div>
+                        <div class="placeholder-bar"></div>
+                        <div class="placeholder-bar-small"></div>
+                      </div>
+                      <span class="badge">1</span>
+                    </div>
+                  </div>
+
+                  <div class="card-item">
+                    <div class="card-product-grid">
+                      <img class="product-img" src="/assets/product1.png" alt="item" />
+                      <img class="product-img" src="/assets/product2.png" alt="item" />
+                      <img class="product-img" src="/assets/product3.png" alt="item" />
+                      <img class="product-img" src="/assets/product4.png" alt="item" />
+                    </div>
+                    <div class="card-details">
+                      <div>
+                        <div class="placeholder-bar"></div>
+                        <span class="item-count">9 items</span>
+                      </div>
+                      <span class="badge">1</span>
+                    </div>
+                  </div>
+
+                  <div class="card-item">
+                    <div class="card-product-grid">
+                      <div class="placeholder-box"></div>
+                      <div class="placeholder-box"></div>
+                      <div class="placeholder-box"></div>
+                      <div class="placeholder-box"></div>
+                    </div>
+                    <div class="card-details">
+                      <div>
+                        <div class="placeholder-bar"></div>
+                        <div class="placeholder-bar-small"></div>
+                      </div>
+                      <span class="badge">1</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Semi-circular carousel -->
+            <div class="carousel-wrapper">
+
+              <!-- Thumbnails container -->
+              <div class="thumbnails-container" id="thumbnails-container">
+                <!-- Thumbnails will be added by JavaScript -->
+
+                <img class="arrow-icon" src="./public/assets/arrow.png" alt="icon" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- carousel section end -->
+
+  </main>
+  <!-- main content end -->
+
+  <script src="app.js"></script>
+</body>
+
+</html>
