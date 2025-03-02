@@ -1,19 +1,19 @@
 // Product data
 const products = [
-  { image: "/assets/thumb1.svg" },
-  { image: "/assets/thumb2.svg" },
-  { image: "/assets/thumb3.svg" },
-  { image: "/assets/thumb4.svg" },
-  { image: "/assets/thumb5.svg" },
+  { image: "/assets/images/thumb1.svg" },
+  { image: "/assets/images/thumb2.svg" },
+  { image: "/assets/images/thumb3.svg" },
+  { image: "/assets/images/thumb4.svg" },
+  { image: "/assets/images/thumb5.svg" },
 ];
 
 // Background images for each slide
 const backgroundImages = [
-  "/assets/bg1.webp",
-  "/assets/bg2.webp",
-  "/assets/bg3.webp",
-  "/assets/bg4.webp",
-  "/assets/bg5.webp",
+  "/assets/images/bg1.webp",
+  "/assets/images/bg2.webp",
+  "/assets/images/bg3.webp",
+  "/assets/images/bg4.webp",
+  "/assets/images/bg5.webp",
 ];
 
 // DOM elements
